@@ -1,0 +1,27 @@
+
+
+.course-pricing-container {
+  display: flex; 
+  justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 20px;
+}
+
+.pricing-block {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+ 
+}
+
+.pricing-block:hover {
+  background-color: #f0f0f0;
+}
+
+.selected {
+  background-color: #4caf50;
+  color: #fff;
+}
